@@ -1,7 +1,5 @@
-a= int(input('Dla ilu osob chcesz zrobic salatke?  '))
-g= int(input('ile pomidora?  '))
-d= int(input('ile salaty?  '))
-s = int(input('ile ogorka?  '))
-print('ilosc pomidorow ',g*a)
-print('ilosc salaty ',d*a)
-print('ilosc ogorkow ',s*a)
+a= int(input('ile osob uwzględnia przepis?  '))
+g= int(input('ile jest osob?  '))
+d= int(input('ile jest składnikow w przepisie?  '))
+
+print('ilosc potrzebnych skladnikow ',d*g/a)
